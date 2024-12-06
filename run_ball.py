@@ -6,10 +6,12 @@ num_balls = 5
 turtle.speed(0)
 turtle.tracer(0)
 turtle.hideturtle()
+
 canvas_width = turtle.screensize()[0]
 canvas_height = turtle.screensize()[1]
 print(canvas_width, canvas_height)
 ball_radius = 0.05 * canvas_width
+
 turtle.colormode(255)
 xpos = []
 ypos = []
